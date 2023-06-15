@@ -5,7 +5,9 @@
       "success": { "value": "#00af56" },
       "warning": { "value": "#ff7f50" },
       "danger": { "value": "#be0040" },
-      "white": { "value": "#ffffff" }
+      "white": { "value": "#ffffff" },
+      "gray-100": { "value": "#d3d3d3" },
+      "gray-500": { "value": "#909090" }
     }
   }
 }
