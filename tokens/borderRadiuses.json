@@ -1,0 +1,12 @@
+{
+  "jr": {
+    "radius": {
+      "border": {
+        "s": { "value": "0.2rem" },
+        "m": { "value": "0.4rem" },
+        "l": { "value": "0.6rem" },
+        "circle": { "value": "50%" }
+      }
+    }
+  }
+}

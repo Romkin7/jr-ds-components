@@ -1,0 +1,43 @@
+{
+  "name": "jr-ds-components",
+  "description": "JR React component library",
+  "version": "1.0.0",
+  "author": {
+    "name": "DevDesign",
+    "email": "devdesign@devdesign.fi",
+    "url": "https://www.devdesign.fi"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "start": "npm run storybook",
+    "copyPackageJson": "node scripts/copyPackageJson.ts",
+    "build:tokens": "style-dictionary build -c config.json",
+    "build": "rimraf lib && tsc -p ./tsconfig.lib.json && npm run copyPackageJson"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.21",
+    "@storybook/addon-interactions": "^7.0.21",
+    "@storybook/addon-links": "^7.0.21",
+    "@storybook/blocks": "^7.0.21",
+    "@storybook/react": "^7.0.21",
+    "@storybook/react-vite": "^7.0.21",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "5.0.1",
+    "sass": "^1.63.4",
+    "storybook": "^7.0.21",
+    "storybook-css-modules": "1.0.8",
+    "style-dictionary": "^3.8.0",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "clsx": "1.2.1"
+  }
+}

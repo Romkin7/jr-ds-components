@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "jsx": "react",
+    "module": "CommonJS",
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "./lib/",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "skipLibCheck": true
+  }
+}

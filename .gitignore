@@ -1,0 +1,5 @@
+stories/styles/**
+node_modules
+lib
+.cache
+storybook-static

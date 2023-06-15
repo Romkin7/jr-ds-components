@@ -1,0 +1,87 @@
+@import '../styles/variables';
+
+.button {
+  font-size: $jr-spacing-l;
+  line-height: $jr-spacing-2-xl;
+  letter-spacing: 1.1px;
+  border-style: ridge;
+  border-width: 2px;
+  transition: background-color 120ms ease-in;
+  color: white;
+}
+
+.button--default {
+  border-color: $jr-color-default;
+  background-color: rgba($jr-color-default, 0.3);
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba($jr-color-default, 1);
+  }
+}
+
+.button--success {
+  border-color: $jr-color-success;
+  background-color: rgba($jr-color-success, 0.3);
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba($jr-color-success, 1);
+  }
+}
+
+.button--warning {
+  border-color: $jr-color-warning;
+  background-color: rgba($jr-color-warning, 0.3);
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba($jr-color-warning, 1);
+  }
+}
+
+.button--danger {
+  border-color: $jr-color-danger;
+  background-color: rgba($jr-color-danger, 0.3);
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba($jr-color-danger, 1);
+  }
+}
+
+.button--disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: azure;
+  border-color: dimgray;
+  color: dimgray;
+}
+
+.button--M {
+  padding: $jr-spacing-m $jr-spacing-xl;
+}
+
+.button--S {
+  padding: $jr-spacing-s $jr-spacing-xl;
+}
+
+.button--borderRadius__s {
+  border-radius: $jr-radius-border-s;
+}
+
+.button--borderRadius__m {
+  border-radius: $jr-radius-border-m;
+}
+
+.button--borderRadius__l {
+  border-radius: $jr-radius-border-l;
+}
+
+.button--borderRadius__circle {
+  border-radius: $jr-radius-border-circle;
+}

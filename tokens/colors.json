@@ -1,0 +1,11 @@
+{
+  "jr": {
+    "color": {
+      "default": { "value": "#794988" },
+      "success": { "value": "#00af56" },
+      "warning": { "value": "#ff7f50" },
+      "danger": { "value": "#be0040" },
+      "white": { "value": "#ffffff" }
+    }
+  }
+}

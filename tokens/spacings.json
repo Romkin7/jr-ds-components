@@ -1,0 +1,11 @@
+{
+  "jr": {
+    "spacing": {
+      "s": { "value": "0.4rem" },
+      "m": { "value": "0.7rem" },
+      "l": { "value": "1.2rem" },
+      "xl": { "value": "1.5rem" },
+      "2-xl": { "value": "2.4rem" }
+    }
+  }
+}
