@@ -17,7 +17,8 @@
     "start": "npm run storybook",
     "copyPackageJson": "node scripts/copyPackageJson.ts",
     "build:tokens": "style-dictionary build -c config.json",
-    "build": "rimraf lib && tsc -p ./tsconfig.lib.json && npm run copyPackageJson"
+    "build": "rimraf lib && tsc -p ./tsconfig.lib.json && npm run copyPackageJson",
+    "publish:components": "(cd lib && npm publish)"
   },
   "license": "MIT",
   "devDependencies": {
